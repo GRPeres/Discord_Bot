@@ -16,6 +16,3 @@ jobs:
           token: '${{ secrets.SQUARE_TOKEN }}'
           application_id: '${{ secrets.SQUARE_APPLICATIONID }}'
 
-      - name: Square Cloud Easy Action
-        uses: squarecloudofc/github-action@v1.1.0
-
