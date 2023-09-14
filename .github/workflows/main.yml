@@ -1,0 +1,17 @@
+name: "Commit project to Square Cloud"
+on: push
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: '0'
+          
+      - name: Commit to Square Cloud
+        uses: squarecloudofc/squarecloud-action@v1.1.0
+        with:
+          restart: true
+          token: '${{ secrets.SQUARE_TOKEN }}'
+          application_id: '${{ secrets.SQUARE_APPLICATIONID }}'
