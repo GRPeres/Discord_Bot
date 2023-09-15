@@ -28,6 +28,11 @@ const commands = [
             },  
         ]
     }, */
+    
+    {
+        name: 'TFT-Randomize',
+        description: 'Te da uma comp aleatoria pro tft',
+    },
 
     {
         name: 'info',
