@@ -30,7 +30,7 @@ const commands = [
     }, */
     
     {
-        name: 'TFT-Randomize',
+        name: 'tftrandomize',
         description: 'Te da uma comp aleatoria pro tft',
     },
 
