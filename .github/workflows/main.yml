@@ -10,7 +10,7 @@ jobs:
           fetch-depth: '0'
           
       - name: Commit to Square Cloud
-        uses: squarecloudofc/squarecloud-action@v1.1.0
+        uses: squarecloudofc/github-action
         with:
           restart: true
           token: '${{ secrets.SQUARE_TOKEN }}'
